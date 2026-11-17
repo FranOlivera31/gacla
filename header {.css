@@ -1,11 +1,10 @@
-/* Altura uniforme para que el carrusel no salte de tamaño */
 .carousel-img {
     height: 450px;
-    object-fit: cover; /* Ajusta la imagen sin deformarla */
+    object-fit: cover; 
     object-position: center;
 }
 
-/* Estilo estético para las tarjetas de productos */
+
 .card-producto {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -15,7 +14,7 @@
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 }
 
-/* Línea divisoria decorativa */
+
 .divider {
     height: 3px;
     width: 60px;
